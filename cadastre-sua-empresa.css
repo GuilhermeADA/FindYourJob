@@ -1,0 +1,70 @@
+/*Iniciando o estilo da pagina de cadastro da empresa*/
+body {
+	background-color: #87CEEB;
+}
+img {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+}
+input {
+	align-items: center;
+}
+#titulo{
+    padding-left: 155px;
+    margin-bottom: 50px;
+}
+.form-control {
+	width: 50%;
+	padding-left: 15px;
+}
+#formulario {
+    align-items: center;
+    padding-top: 90px;
+    padding-left: 23%;
+}
+.wordLeft {
+	float: left;
+    margin-top: 8px;
+    margin-right: 11px;
+}
+#campoEmail1 {
+	float: left;
+    margin-top: 8px;
+    margin-right: 14px;
+    margin-left: 49px;
+}
+#campoEmail2 {
+	float: left;
+    margin-top: 8px;
+    margin-right: 13px;
+    margin-left: -45px;
+}
+#campoSenha1 {
+	float: left;
+    margin-top: 8px;
+    margin-right: 13px;
+    margin-left: 43px;
+}
+.help-block {
+	margin-left: 100px;
+}
+#campoSenha2 {
+	float: left;
+    margin-top: 8px;
+    margin-right: 13px;
+    margin-left: -50px;	
+}
+#campoArquivo {
+	float: left;
+    margin-top: 1px;
+    margin-right: 18px;
+    margin-left: -48px;
+}
+.checkbox {
+	float: left;
+    margin-top: 1px;
+    margin-right: 18px;
+    margin-left: 99px;
+}
+

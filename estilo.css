@@ -1,0 +1,103 @@
+/*Background do cabeçalho*/
+header {
+	width: 100%;
+	height: 245px;
+	background-color: #87CEEB;
+}
+/*Dimensões do logotipo*/
+#logotipo {
+	width: 260px;
+    height: 265px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+/*Dimensões dos icones / não consegui colocar um espaçamento entre eles*/
+.icons {
+	width: 55px;
+	height: 55px;
+}
+/*Mantem os ícones flutuando do lado direito*/
+.right {
+	float: right;
+}
+/*esta parte alinha os ícones e da um espaçamento em cima e na direita*/
+header div.icones {
+	display: block;
+	padding-top: 15px;
+	padding-right: 30px;	
+}
+/*bordas da barra de navegação*/
+#navbar{
+	background-color: #87CEEB;
+	width: 100%;
+	height: 85px;
+}
+.nav-tabs {
+    border-bottom: 1px solid #fff;
+}
+/*Aqui eu defino a cor para a barra de navegação e o tamanho da fonte*/
+.nav {
+	font-size: 20px;
+    margin-bottom: 0;
+    list-style: none;
+    background: #708090;
+}
+/*COMEÇANDO A ESTILIZAR A BARRA DE NAVEGAÇÃO
+Aqui eu "alinho" os botoes da barra de navegação do lado direito*/
+ul.espaco {
+    padding-left: 455px;
+    margin-top: 0;
+    margin-bottom: -1px;
+}
+/*Aqui define a cor da fonte dos botões*/
+nav ul li a.text {
+	text-decoration: none;
+	color: #fff;
+}
+/*Estilo dos botões da barra de navegação*/
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;	
+}
+.button2 {
+	background-color: #008CBA;
+	border-radius: 4px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+/*Botão para mais informações que redirecionará para uma nova pagina*/
+#mais-informacoes {
+	text-align: center;
+	background-color: #4682B4;
+}
+#mais-informacoes h1 {	
+	font-size: 45px;
+	color: #f1f1f1;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+/*Dimensões dos slides*/
+#owl-exemplo1 .item img{
+    display: block;
+    width: 100%;
+    height: 350px;
+}
+#rodape {
+	width: 100%;
+	height: 150px;
+	background-color: #4682B4;
+	position: absolute;
+
+}
+#rodape p {
+	color: #f1f1f1;
+	text-align: center;
+	padding-top: 62px;
+}
